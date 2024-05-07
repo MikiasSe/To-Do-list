@@ -1,0 +1,71 @@
+body{
+    height: 100%;
+    width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+h1{
+  
+    text-align: center;
+    color:paleturquoise;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 400px;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    padding:20px;
+}
+#newtask input{
+   position: relative;
+   width: 77%;
+   height: 45px;
+   padding: 10px;
+   font-weight: 500px;
+   border: 2px solid rgba(255,255,255,.5);
+   border-radius: 5px;
+}
+#newtask input:focus{
+    outline: none;
+    border-color: #CF6408;
+}
+#push {
+    width: 20%;
+    height: 45px;
+    float: right;
+    outline: none;
+    border:2px solid #CF6408;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #CF6408;
+    border-radius: 5px;
+}
+#push:hover{
+    color: white;
+    background-color: #CF6408;
+    cursor: pointer;
+}
+.single-task {
+    display: grid;
+    grid-template-columns: .5fr 6.5fr .5fr;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    background-color: #fff;
+    border: #CF6408 solid 2px;
+    border-radius:10px;
+    margin-top: 10px;
+}
+svg:hover{
+    cursor:pointer;
+}
